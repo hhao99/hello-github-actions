@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-echo "Hello Git Action"
+echo "Hello Git Action! Great job $inputname"
