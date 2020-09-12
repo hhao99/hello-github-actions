@@ -1,2 +1,13 @@
 name: A workflow for my hello world file
 on push
+
+jobs:
+  build:
+    name: hello world action
+    run-on: ubuntu-20.04
+      - uses: actions/checkout/v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "eric"
+    
+     
